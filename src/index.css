@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to left, rgba(7, 27, 82, 1) 0%, rgba(0, 128, 128, 1) 100%);
+  color: #FFF;
+  padding-left: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face{
+  font-family: 'TITLE';
+  src: url("fonts/Queen\ of\ Camelot\ Outlines.otf");
+}
+@font-face{
+  font-family: 'USERNAMES';
+  src: url("fonts/Queen\ of\ Camelot\ Outlines.otf");
+}
+@font-face{
+  font-family: 'EMAILS';
+  src: url("fonts/Exo-ThinItalic.otf");
+}
+
+h1{
+  font-family: 'TITLE';
+  letter-spacing: .5em;
+  color: rgb(0, 255, 255);
+}
+h2{
+  font-family: 'USERNAMES';
+  color: rgba(45, 88, 88, 0.884);
+}
+p{
+  font-family: 'EMAILS';
+  color:black;
+}
+::-webkit-scrollbar{
+  width: 0px;
+  /*display:none; vai funcionar também*/
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgba(23, 124, 131, 0.514);
+    padding-top: 20px ;
+    margin-left: -80px ;
+    padding-left: 400px;
+    padding-bottom: 20px;
+}
+.navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+    float:rigth;
+    color: rgb(226, 226, 226);
+    transition: all 1s;
+    text-transform: uppercase;
+}
+.navbar ul li:hover{
+    color:#FFF;
+    text-decoration: underline;
+}
