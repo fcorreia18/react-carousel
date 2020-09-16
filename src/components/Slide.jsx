@@ -8,23 +8,25 @@ export default function Slide() {
 
     return (
         <div className="carousel">
-            <Carousel showArrows={true} infiniteLoop={true}
+            <Carousel
+                infiniteLoop={true}
                 autoPlay={true}
-                emulateTouch={true} >
+                interval={2500}
+            >
                 <div>
-                    <img src={produt1} />
+                    <img src={produt1} alt="" />
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img src={produt1} />
+                    <img src={produt1} alt="" />
                     <p className="legend">Legend 2</p>
                 </div>
                 <div>
-                    <img src={produt1} />
+                    <img src={produt1} alt="" />
                     <p className="legend">Legend 3</p>
                 </div>
             </Carousel>
-        </div >
+        </div>
     );
 };
 

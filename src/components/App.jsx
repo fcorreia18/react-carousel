@@ -1,7 +1,7 @@
 import React from 'react';
-import Slide from './components/Slide';
+import Slide from './Slide';
 import './App.css';
-import './index.css';
+
 
 export default function () {
 

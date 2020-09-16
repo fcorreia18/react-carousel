@@ -1,8 +1,9 @@
 
 .carousel{
- 
-    height: 10% !important;
-    background:red;
+    background:rgb(116, 207, 243);
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 12px;
+}
+img{
+    background-color: #FFF;
 }
